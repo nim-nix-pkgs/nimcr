@@ -11,7 +11,6 @@
   inputs.src-nimcr-master.ref   = "refs/heads/master";
   inputs.src-nimcr-master.owner = "PMunch";
   inputs.src-nimcr-master.repo  = "nimcr";
-  inputs.src-nimcr-master.dir   = "";
   inputs.src-nimcr-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
